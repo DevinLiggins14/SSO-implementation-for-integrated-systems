@@ -45,34 +45,50 @@
 <img src="https://github.com/user-attachments/assets/7bb44c5c-c7c4-4faf-b7c3-376a398984c0"/>
 <img src="https://github.com/user-attachments/assets/aa64c4c5-0b27-4614-83a7-69c2f4f4fb0b"/>
  <br />  
- 
+ Click on keycloak on the left and select create realm to create a new realm
 <br />
+<img src="https://github.com/user-attachments/assets/f1ff6b56-268c-4362-a77b-e34fd34e2cf7"/>
+<br/>  Configure when done <br/>
+<img src="https://github.com/user-attachments/assets/9e0edd5a-614c-4fbe-89df-acd1ae1e3e2c"/>
   <br/>
-<img src=""/>
- <img src=""/>
-<br />  <br/>
- <img src=""/>
+  <br/> CLick create <br/>
+<img src="https://github.com/user-attachments/assets/b31ce90a-5be4-445d-951d-0d6ab50b9194"/>
+ <img src="https://github.com/user-attachments/assets/5e0a9573-c002-47b3-9316-162c18e77bd3"/>
+<br /> Navigate to create client and pick OpenID and write portainer <br/>
+ <img src="https://github.com/user-attachments/assets/1557919a-5105-4261-8309-fc1181a410b8"/>
  <br /> 
- <br/>  <br/>
- <img src=""/>
+ <br/> On the next page select client authentication and service account roles on and leave rest as default  <br/>
+ <img src="https://github.com/user-attachments/assets/88c1f257-5d48-4707-b693-d7c376cf5ce3"/>
  <br />  
-<br />  <br/>
-<img src=""/>
- <img src=""/>
-<br />  <br/>
- <img src=""/>
+<br /> Add desired links for application <br/>
+<img src="https://github.com/user-attachments/assets/38528bba-5154-436a-a671-ebddb4c36be0"/>
+<br/> Confirm creation when finished <br/>
+ <img src="https://github.com/user-attachments/assets/daf1a1ef-f140-463b-bf99-f4e0e304551d"/>
+ <br/> Confirm configurations for application <br/>
+ <img src="https://github.com/user-attachments/assets/f0ab99a3-b5d6-4f1d-ab07-568b0f58fedc"/>
+<br /> To confirm and test our SSO we require an application. We can use Grafana, first download the grafana image locally on your machine <br/>
+ <img src="https://github.com/user-attachments/assets/bfb034cc-bc56-4a7b-bc76-85fa6545fe3e"/>
  <br /> 
- <br/>  <br/>
- <img src=""/>
+ <br/> Confirm installation and access the Grafana UI <br/>
+ <img src="https://github.com/user-attachments/assets/f933d7ab-0bd6-479b-8b16-e29608d19bfc"/>
+ <img src="https://github.com/user-attachments/assets/ebd9a43a-b637-4cb9-b8f4-4cfe5ec42c5a"/>
+ <img src="https://github.com/user-attachments/assets/8998f6c0-6e53-447e-a891-3094ea8a0420"/>
  <br />  
-<br />  <br/>
-<img src=""/>
- <img src=""/>
-<br />  <br/>
- <img src=""/>
+<br /> Now navigate to adminstration and authentication <br/>
+<img src="https://github.com/user-attachments/assets/3fdcdf24-4c0e-4e39-84f4-d8d87a4e5fd9"/>
+<br/> Select OpenAuth <br/>
+ <img src="https://github.com/user-attachments/assets/f3918a4e-7438-47e3-bc53-dd3eddf3329c"/>
+ <br/> Return to the keycloak and create a user for Grafana <br/>
+ <img src="https://github.com/user-attachments/assets/c41f81aa-6f5d-4caf-93af-1b9e276a62de"/>
+ <img src="https://github.com/user-attachments/assets/bdd4c645-cb34-4c4e-8732-f57b2a62e61b"/>
+ <br/> Navigate to the newly created clients credentials page and copy the secret<br/>
+ <img src="https://github.com/user-attachments/assets/58bc2993-b0b9-441f-9b14-d063e5cfa977"/>
+ <br/>
+<br /> Paste the Grafana secret in the UI back on the Grafana page  <br/>
+ <img src="https://github.com/user-attachments/assets/9f0683b5-3364-461a-9414-d1944822b981"/>
  <br /> 
- <br/>  <br/>
- <img src=""/>
+ <br/> Add the remaining keycloak url and token and confirm <br/>
+ <img src="https://github.com/user-attachments/assets/a7148dbd-e61d-44e7-a991-44de33072582"/>
  <br />  
 <br />  <br/>
 <img src=""/>
