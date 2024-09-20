@@ -1,6 +1,6 @@
 # SSO-implementation-for-integrated-systems
 <h2>Description</h2>
-The purpose of this project is to configure and integrate SSO and MKA to an applications using Keycloak and use Gafrana and Prometheus to record metrics and system performance 
+The purpose of this project is to configure and integrate SSO and MKA to applications using Keycloak and use Gafrana and Prometheus to record metrics and system performance 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/fd782ffc-d154-4bbc-91e5-332e6711e9c1"/>
 
