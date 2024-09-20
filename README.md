@@ -1,6 +1,6 @@
 # SSO-implementation-for-integrated-systems
 <h2>Description</h2>
-
+The purpose of this project is to configure and integrate SSO and MKA to an applications using Keycloak and use Gafrana and Prometheus to record metrics and system performance 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/fd782ffc-d154-4bbc-91e5-332e6711e9c1"/>
 
@@ -123,21 +123,13 @@ Bash, Yaml
  <br /> 
  <br/> Acess the application via mobile with the role  <br/>
  <img src="https://github.com/user-attachments/assets/0c1d5436-027e-4969-8bf5-4e502632bab0"/>
- <br/> MKA working after being tested <br/>
+ <br/> MKA & OTO required working after being tested <br/>
  <img src="https://github.com/user-attachments/assets/76ee2062-6d31-4ef7-8025-e7df58105bb8"/>
  <br/> Email one time code success after being configured and tested <br/>
  <img src="https://github.com/user-attachments/assets/12ce37ec-56af-408e-9e8b-b4a9905706a9"/>
  <br/> Successful sign in after one time code <br/>
  <img src="https://github.com/user-attachments/assets/96d38559-b15c-4a9b-a2a8-55761b5d2561"/>
- <br />  
-<br />  <br/>
-<img src=""/>
- <img src=""/>
-<br />  <br/>
- <img src=""/>
- <br /> 
- <br/>  <br/>
- <img src=""/>
+ <br/>
  <br />  
 <br /> To set up system monitoring we will use Grafana with Prometheus but first we must set up Prometheus <br/>
 <img src="https://github.com/user-attachments/assets/3a8189dd-4437-489d-b2d0-c9a0921075d7"/>
@@ -172,8 +164,6 @@ Bash, Yaml
  <br/> Return to adding the API server for Prometheus.. after much troubleshooting: <br/>
  <img src="https://github.com/user-attachments/assets/02504abc-875b-434b-9f56-bef23aff5209"/>
  <br />  
-<br /> Now that we are ready to build our dashbaoard head to https://grafana.com/grafana/dashboards/ <br/>
-<img src="https://github.com/user-attachments/assets/373a3042-3efc-4f4c-9a46-475903c30965"/>
 <br/> These are two VMs on Prometheus currently for example <br/>
  <img src="https://github.com/user-attachments/assets/e3094900-b66c-413d-b1a3-d768afc61df4"/>
 <br /> On our dashboard let's set the time for the past 24hrs to recieve recent data from the day and then pick a custom query <br/>
