@@ -179,3 +179,6 @@ Bash, Yaml
 <br /> Data can also be queryed in the explore tab <br/>
  <img src="https://github.com/user-attachments/assets/b2d42e7f-3667-469d-92dc-622dccf8ea1c"/>
  <br/> Success! <br/>
+ <br/> Head to alerting and define a metric to recieve routine alerts on vm system status as well as a designated email <br/>
+ <img src="https://github.com/user-attachments/assets/be7455cc-5b86-4392-8bb4-e76095efa792"/>
+ <img src="https://github.com/user-attachments/assets/772427be-a1c7-4b0e-9aa8-33bf81511f8f"/>
